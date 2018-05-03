@@ -2,7 +2,7 @@
 
 This is a code repository for the SIB - Swiss Institute of Bioinformatics CALIPHO group neXtProt project
 
-See: http://www.nextprot.org/
+See: https://www.nextprot.org/
 
 # neXtProt feature viewer
 
@@ -113,10 +113,10 @@ Check out this page for a better understanding of how to use the feature viewer 
 
 <img src="/assets/FVDemo.png" width="100%" />
 
-It is possible to fill the feature viewer with protein features from [NeXtProt](https://search.nextprot.org/), the human protein database.   
+It is possible to fill the feature viewer with protein features from [neXtProt](https://www.nextprot.org/), the human protein database.   
 
-- First, find your protein of interest in NeXtProt and get the neXtProt accession (NX_...). (You can find your protein by entering an accession number of another database, like UniProt or Ensembl)   
-- Then, check the type of feature in the [NeXtProt API](https://api.nextprot.org/) that you would like to add to your viewer. For example, "propeptide" or "mature-protein".
+- First, find your protein of interest in neXtProt and get the neXtProt accession (NX_...). (You can find your protein by entering an accession number of another database, like UniProt or Ensembl)   
+- Then, check the type of feature in the [neXtProt API](https://api.nextprot.org/) that you would like to add to your viewer. For example, "propeptide" or "mature-protein".
 - Include the feature viewer bundle with nextprot to your html  : feature-viewer.nextprot.js
 - Finally, create your feature-viewer like this :
 
@@ -156,7 +156,7 @@ ff.addNxFeature(["propeptide","mature-protein"], styles);
 
 ## Examples 
 
-https://search.nextprot.org/entry/NX_P01308/view/proteomics
+https://www.nextprot.org/entry/NX_P01308/view/proteomics
 
 ## Support
 
